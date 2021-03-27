@@ -9,6 +9,7 @@ NumPy
 BeautifulSoup
 Time
 JSON
+OS
 
 Files in the Repository w/ Summary
 Fanfic_HTML folder: 1000 AO3 fanfics downloaded in HTML format
