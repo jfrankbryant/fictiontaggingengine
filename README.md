@@ -12,8 +12,9 @@ OS
 SQLAlchemy
 
 Files in the Repository w/ Summary
-Fanfic_HTML folder: 1000 AO3 fanfics downloaded in HTML format
 AO3_ETLPipeline.ipynb: ETL pipeline for AO3 fanfics
+Fanfic_HTML folder: 1000 AO3 fanfics downloaded in HTML format
+fictionTaggingEngine.db: SQLite database with processed dataset stored in tables
 inProcessAO3data.csv: dataset prior to manual tag processing
 README.md: documentation file
 tags_CSV folder:
