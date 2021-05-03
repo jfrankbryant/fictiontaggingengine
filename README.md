@@ -31,6 +31,10 @@ UniqueList_fandom.csv: CSV file with a list of fandoms
 UniqueList_additionalTags.csv: CSV file with a list of tags from additionalTags column
 fandomGenreCloud.png: word cloud image with fandom genre tags
 tagCloud.png: word cloud image with theme tags
+illnessTags.png: bar graph with illness tags
+characterOfColorTags.png: bar graph with character of color tags
+lgbtqiaUmbrellaTags.png: bar graph with LGBTQIA umbrella tags
+disabilityTags.png: bar graph with disability tags
 
 Sources for code adapted and used:
 Stripping code found here: https://stackoverflow.com/questions/7984169/remove-trailing-newline-from-the-elements-of-a-string-list
