@@ -45,7 +45,7 @@ disabilityTags.png: bar graph with disability tags
 fictionTaggingEngine.pkl: saved model of the fiction tagging engine
 
 Summary of Project Results:
-I setup an ETL pipeline to transform AO3 fanfic into a labelled dataset because AO3 has an award-winning tag wrangling system, so out of all of the options it was the best one to get labelled data with the least amount of manual processing. I also setup a machine learning pipeline to create an initial algorithm based on the toy dataset I created. Currently precision is better in the algorithm, however higher recall and f-scores likely need more data with better labelling to train on. 
+I setup an ETL pipeline to transform AO3 fanfic into a labelled dataset because AO3 has an award-winning tag wrangling system, so out of all of the options it was the best one to get labelled data with the least amount of manual processing. I also setup a machine learning pipeline to create an initial algorithm based on the toy dataset I created. Currently precision is better in the algorithm than recall, however higher recall and f-scores likely need more data with better labelling to train on.
 
 Sources for code adapted and used:
 Stripping code found here: https://stackoverflow.com/questions/7984169/remove-trailing-newline-from-the-elements-of-a-string-list
@@ -56,4 +56,5 @@ Word cloud code:
                 https://www.geeksforgeeks.org/generating-word-cloud-python/
                 https://www.datacamp.com/community/tutorials/wordcloud-python
                 https://towardsdatascience.com/simple-wordcloud-in-python-2ae54a9f58e5
-Code for the ML/NLP pipeline adpated from my Disaster Response Pipelines code: https://github.com/jfrankbryant/dsnd_disasterresponsepipeline
+Code for the ML/NLP pipeline adapted from my Disaster Response Pipelines code: https://github.com/jfrankbryant/dsnd_disasterresponsepipeline
+Code for the customized scorers adapted from here: https://stackoverflow.com/questions/52539986/scoring-in-gridsearch-cv?rq=1
